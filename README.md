@@ -51,16 +51,6 @@ RTL Design and Synthesis of a novel modular PE for systolic array and accelerato
 
 - **Efficient Multi-Format Computation** – This design ensures seamless format adaptation while maintaining high compute efficiency for mixed-precision deep learning workloads.
 
-## FIXED POINT
-
-| Signal       | Width             | Description                    | Signal    | Width             | Description                 |
-|--------------|-------------------|--------------------------------|-----------|-------------------|-----------------------------|
-| `clk`        | 1 bit              | Primary clock signal           | `r1`      | 256 bits [255:0]  | Output register 1           |
-| `clk2`       | 1 bit              | Secondary clock signal         | `r2`      | 256 bits [255:0]  | Output register 2           |
-| `rst`        | 1 bit              | Asynchronous reset             | `r3`      | 256 bits [255:0]  | Output register 3           |
-| `a_data`     | 128 bits [127:0]    | Input data bus A                | `r4`      | 256 bits [255:0]  | Output register 4           |
-| `b_data`     | 128 bits [127:0]    | Input data bus B                |           |                   |                             |
-
 ## Processing Element (PE) - Floating Point
 ### RTL Design and Functional Verification
 
